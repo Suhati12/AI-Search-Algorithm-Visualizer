@@ -2,7 +2,7 @@
 
 A Python GUI application that visualizes and compares various AI search algorithms for pathfinding in a maze.
 
-## Features
+# Features
 
 - Interactive grid/maze creation (20x20)
 - Multiple search algorithms:
@@ -15,14 +15,14 @@ A Python GUI application that visualizes and compares various AI search algorith
 - Performance comparison (nodes visited, time, path length)
 - Tic-Tac-Toe game with Minimax and Alpha-Beta Pruning
 
-## Installation
+# Installation
 
 ```bash
 # No external dependencies required - uses Python standard library
 python main.py
 ```
 
-## Usage
+# Usage
 
 1. Set start point (green) by selecting "Set Start" and clicking on grid
 2. Set goal point (red) by selecting "Set Goal" and clicking on grid
@@ -31,7 +31,7 @@ python main.py
 5. Click "Run Algorithm" to visualize
 6. View results: nodes visited, time taken, path length
 
-## Data Structures Used
+# Data Structures Used
 
 | Algorithm | Data Structure |
 |-----------|---------------|
@@ -43,7 +43,7 @@ python main.py
 | Minimax | Game tree |
 | Alpha-Beta | Tree with pruning |
 
-## Color Legend
+# Color Legend
 
 - Green: Start point
 - Red: Goal point
@@ -52,7 +52,7 @@ python main.py
 - Yellow: Final path
 - White: Empty cells
 
-## Project Structure
+# Project Structure
 
 ```
 AI_Search_Project/
@@ -67,49 +67,49 @@ AI_Search_Project/
 └── README.md            # Documentation
 ```
 
-## Algorithms Explained
+# Algorithms Explained
 
-### BFS (Breadth First Search)
+## BFS (Breadth First Search)
 - Uses Queue (FIFO)
 - Explores level by level
 - Guarantees shortest path
 - Complete and optimal
 
-### DFS (Depth First Search)
+## DFS (Depth First Search)
 - Uses Stack (LIFO)
 - Explores depth first
 - May not find shortest path
 - Memory efficient
 
-### A* Search
+## A* Search
 - Uses Priority Queue with f(n) = g(n) + h(n)
 - g(n): cost from start
 - h(n): heuristic (Manhattan distance)
 - Optimal and efficient
 
-### Best First Search
+## Best First Search
 - Uses Priority Queue with only h(n)
 - Greedy approach
 - Not guaranteed optimal
 - Fast but may miss better paths
 
-### Hill Climbing
+## Hill Climbing
 - Local search algorithm
 - Always moves to best neighbor
 - Can get stuck in local optima
 - Simple and fast
 
-### Minimax
+## Minimax
 - Game tree algorithm
 - Assumes optimal opponent play
 - Used in Tic-Tac-Toe AI
 
-### Alpha-Beta Pruning
+## Alpha-Beta Pruning
 - Optimization of Minimax
 - Prunes unnecessary branches
 - Same result, faster execution
 
-## Technologies Used
+# Technologies Used
 
 - **Language**: Python 3
 - **GUI**: Tkinter
