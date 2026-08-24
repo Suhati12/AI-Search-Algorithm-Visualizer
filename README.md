@@ -67,7 +67,7 @@ AI_Search_Project/
 └── README.md            # Documentation
 ```
 
-# Algorithms Explained
+## Algorithms Explained
 
 ## BFS (Breadth First Search)
 - Uses Queue (FIFO)
