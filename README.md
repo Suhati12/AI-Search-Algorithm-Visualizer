@@ -43,7 +43,7 @@ python main.py
 | Minimax | Game tree |
 | Alpha-Beta | Tree with pruning |
 
-# Color Legend
+## Color Legend
 
 - Green: Start point
 - Red: Goal point
