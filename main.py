@@ -1,3 +1,4 @@
+
 """
 AI Search Algorithm Visualizer — Entry Point
 """
