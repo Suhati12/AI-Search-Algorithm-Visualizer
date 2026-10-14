@@ -1,4 +1,3 @@
-
 # AI Search Algorithm Visualizer
 
 A Python GUI application that visualizes and compares various AI search algorithms for pathfinding in a maze.
